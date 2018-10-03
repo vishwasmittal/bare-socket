@@ -4,7 +4,7 @@ Simple server and corresponding client written in bare sockets in multiple langu
 ## Requirements
 ### Server
 - The server should be written in bare sockets and use of external libraries should be avoided.
-- The server should be able to accept a client request and be able to serve a simple HTTP response. Example:
+- The server should be able to accept a client request and be able to serve the following HTTP response.
 ```html
 HTTP/1.1 200 OK
 
@@ -26,6 +26,11 @@ HTTP/1.1 200 OK
 ### Client
 - Client should be written in bare sockets and use of external libraries should be avoided.
 - Client should be able to connect to the server, send a request message and print the response received.
+
+Message send by the client:
+```
+"Hello from client"
+```
 
 ## Testing and Usage
 Servers returns the HTTP responses so these can also be tested and/or used using the browsers also.

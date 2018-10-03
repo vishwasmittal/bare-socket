@@ -1,6 +1,6 @@
 # import the socket library
 import socket
-client_message = "Hello from client!"
+client_message = "Hello from client"
 # create a client socket
 client_sock = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0)
 # connect to server listening on port 8000
