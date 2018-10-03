@@ -27,5 +27,8 @@ HTTP/1.1 200 OK
 - Client should be written in bare sockets and use of external libraries should be avoided.
 - Client should be able to connect to the server, send a request message and print the response received.
 
+## Testing and Usage
+Servers returns the HTTP responses so these can also be tested and/or used using the browsers also.
+
 ## Contributions
 Contributions and other suggestions are welcome. Submit a pull request.
