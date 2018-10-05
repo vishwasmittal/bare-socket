@@ -29,7 +29,10 @@ HTTP/1.1 200 OK
 
 Message send by the client:
 ```
-"Hello from client"
+GET / HTTP/1.1
+Host: localhost:8000
+Accept: */*
+
 ```
 
 ## Testing and Usage
