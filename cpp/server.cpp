@@ -7,8 +7,10 @@
 #define PORT 8000
 
 char *server_message = 
-"HTTP/1.1 200 OK \n\
-\n\
+"HTTP/1.1 200 OK\r\n\
+Content-Type: text/html; charset=UTF-8\r\n\
+Content-Length: 136\r\n\
+\r\n\
 <html>\n\
 <head>\n\
 	<title>Title: Bare Socket</title>\n\
