@@ -3,8 +3,8 @@ import socket
 
 # A string predefined in the form of HTTP resopnse. (More on HTTP responses later)
 server_message = """\
-HTTP/1.1 200 OK
-
+HTTP/1.1 200 OK\r
+\r
 <HTML>
 <Head>
 	<Title>Title: Bare Socket</Title>
